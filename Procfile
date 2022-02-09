@@ -1,0 +1,1 @@
+web: rasa x --production --rasa-x-port 80 --enable-api --endpoints config/enentials config/credentials.ymldpoints.yml --cred -p $PORT
