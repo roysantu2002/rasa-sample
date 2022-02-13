@@ -11,3 +11,8 @@ rules:
   steps:
   - intent: bot_challenge
   - action: utter_iamabot
+
+- rule: Say 'I can help you' anytime the user says courses
+  steps:
+  - intent: ask_course
+  - action: utter_course_info

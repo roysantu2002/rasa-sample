@@ -8,6 +8,8 @@ stories:
   - action: utter_greet
   - intent: mood_great
   - action: utter_happy
+  - intent: ask_course 
+  - action: utter_course_info
 
 - story: sad path 1
   steps:
